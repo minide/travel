@@ -1,0 +1,23 @@
+body{
+  width: 80%;
+  margin: 50px auto;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-col{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.screen{
+  margin: 25px;
+  padding: 10px;
+  background: lightblue;
+  width: 100%;
+  border: 2px dashed black;
+}
