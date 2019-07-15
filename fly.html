@@ -3,27 +3,32 @@
   <head>
     <title>TRAVEL</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+
   </head>
   <body>
     <div class="flex-col">
       <div class="flex">
-        <div id="travel-list" class="screen">
-          1 <br>
-          travel 1 <br>
-          travel 1 <br>
-          travel 1 <br>
-          travel 1 <br>
-          travel 1 <br>
-          travel 1 <br>
-          travel 1 <br>
+        <div id="travel-list" class=" list-header screen">
+          <div class="number">NUMBER:</div>
+          <div class="destination">DESTINATION:</div>
+          <div class="price">PRICE:</div>
         </div>
         <div id="travel-reg" class="screen">
-          2 <br>
-          name:<input type="text" name="" value=""><br>
-          name:<input type="text" name="" value=""><br>
-          name:<input type="text" name="" value=""><br>
-          name:<input type="text" name="" value=""><br>
-          name:<input type="text" name="" value=""><br>
+          <form class="" action="fly.html" method="post">
+            <label for="first-name">First Name:</label>
+            <input type="text" name="first-name" value=""><br>
+            <label for="last-name">Last Name:</label>
+            <input type="text" name="last-name" value=""><br>
+            <label for="ID">ID</label>
+            <input type="number" name="ID" value=""><br>
+            <label for="travelID">Travel ID</label>
+            <input type="number" name="travelID" value=""><br>
+            <label for="passengers">Passengers</label>
+            <input type="number" name="passengers" value=""><br>
+            <label for="total-price">Total price:</label>
+            <input type="number" name="total-price" value=""><br>
+            <input type="submit" name="submit" value="submit">
+          </form>
         </div>
     </div>
 
@@ -47,5 +52,8 @@
   </div>
 
     </div>
+
+    <script src="fly.js"></script>
+
   </body>
 </html>

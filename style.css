@@ -1,6 +1,7 @@
 body{
   width: 80%;
   margin: 50px auto;
+  font-family: 'assistant', sans-serif;
 }
 
 .flex{
@@ -20,4 +21,19 @@ body{
   background: lightblue;
   width: 100%;
   border: 2px dashed black;
+}
+
+#travel-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.list-header{
+  text-decoration: underline;
+}
+
+label{
+  display: inline-block;
+  width: 100px;
+  margin-bottom: 10px;
 }
