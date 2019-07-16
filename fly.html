@@ -8,13 +8,16 @@
   <body>
     <div class="flex-col">
       <div class="flex">
-        <div id="travel-list" class=" list-header screen">
-          <div class="number">NUMBER:</div>
-          <div class="destination">DESTINATION:</div>
-          <div class="price">PRICE:</div>
+        <div id="travel-list" class=" screen">
+          <div class="travel-item item list-header">
+            <div class="travel-id">ID</div>
+            <div class="destination">DESTINATION:</div>
+            <div class="price">PRICE:</div>
+          </div>
         </div>
+
         <div id="travel-reg" class="screen">
-          <form class="" action="fly.html" method="post">
+          <div id="travel-reg">
             <label for="first-name">First Name:</label>
             <input type="text" name="first-name" value=""><br>
             <label for="last-name">Last Name:</label>
@@ -25,22 +28,27 @@
             <input type="number" name="travelID" value=""><br>
             <label for="passengers">Passengers</label>
             <input type="number" name="passengers" value=""><br>
-            <label for="total-price">Total price:</label>
-            <input type="number" name="total-price" value=""><br>
-            <input type="submit" name="submit" value="submit">
-          </form>
+
+            <button type="button">send</button>
+          </div>
         </div>
     </div>
 
     <div class="flex">
-      <div id="reg-list" class="screen">
-        3 <br>
-        ZVI ZEEV<br>
-        ZVI ZEEV<br>
-        ZVI ZEEV<br>
-        ZVI ZEEV<br>
-        ZVI ZEEV<br>
-      </div>
+
+
+        <div id="pass-list" class="screen">
+          <div class="travel-item item list-header">
+            <div class="passengerID">PASS-ID</div>
+            <div class="passNmae">NAME:</div>
+            <div class="personalID">PERSONAL ID:</div>
+            <div class="travelID">TRAVEL ID:</div>
+            <div class="passengers">PASSENGERS:</div>
+            <div class="totalprice">TOTAL PRICE:</div>
+
+          </div>
+        </div>
+
       <div id="travel-lookup" class="screen">
       4 <br>
       your name: <input type="text" name="" value=""><br>
@@ -54,6 +62,15 @@
     </div>
 
     <script src="fly.js"></script>
+    <script src="customers.js"></script>
+    <script src="register.js"></script>
+    <script src="find.js"></script>
+
+    </script>
+
+    </script>
+
+    </script>
 
   </body>
 </html>
