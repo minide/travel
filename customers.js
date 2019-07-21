@@ -9,10 +9,6 @@ let Customer = function Customer(name, personalID, travelID, passengersCount){
   this.travelID = travelID
   this.passengers = passengersCount
 
-
-
-
-
   this.buildHTML = function buildHTML(){
 
     let travel;
@@ -42,7 +38,7 @@ let Customer = function Customer(name, personalID, travelID, passengersCount){
 
 Customer.addNewCustomer = function(c){
   db.regList.push(c)
-  let y = x.buildHTML()
+  let y = c.buildHTML()
   final.innerHTML += y
 }
 
